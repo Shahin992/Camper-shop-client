@@ -50,7 +50,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           </h3>
           <h3 className="font-bold text-gray-700">
             AVAILABLE QUANTITY:<span className="text-sm"></span>{" "}
-            {product?.quantity}.00
+            {product?.quantity}
           </h3>
           <h3 className="font-bold text-gray-700">
             STOCK:{" "}
